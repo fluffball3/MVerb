@@ -1,7 +1,8 @@
 name: build
 
 on:
-   branches:
+  push:
+    branches:
       - '*'
   pull_request:
     branches:
